@@ -1,0 +1,22 @@
+.dsc-comment-card {
+  background-color: var(--dsc-color-bg-primary);
+  border: 1px solid var(--dsc-color-border);
+  border-radius: 12px;
+  width: 100%;
+  max-width: 280px;
+}
+
+.dsc-comment-card p {
+  font-size: 16px;
+  color: var(--dsc-color-font-tertiary);
+  padding: 20px;
+}
+
+@media (min-width: 1200px) {
+  .dsc-comment-card {
+    max-width: 960px;
+  }
+  .dsc-comment-card p {
+    padding: 25px;
+  }
+}

@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  margin: 0;
+  font-family: Poppins
+}
+
+:root {
+  --dsc-color-bg-header: #3C9AF0;
+  --dsc-color-bg-primary: #FFF;
+  --dsc-color-bg-secundary: #C8C8C8;
+
+  --dsc-color-font-primary: #FFF;
+  --dsc-color-font-secundary: #5E5E5E;
+  --dsc-color-font-tertiary: #3C9AF0;
+
+  --dsc-color-border: #3C9AF0;
+}

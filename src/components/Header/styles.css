@@ -1,0 +1,20 @@
+.dsc-header{
+    background-color: var(--dsc-color-bg-header);
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dsc-header-title{
+    color: var(--dsc-color-font-primary);
+    font-weight: bold;
+    font-size: 20px;
+    height: 30px;
+}
+
+@media(min-width: 1200px){
+    .dsc-header-title{
+        font-size: 24px;
+    }
+}
